@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Palíndromos</string>
+    <string name="digite_sua_frase">Digite sua frase:</string>
+    <string name="verificar">Verificar</string>
+    <string name="qtdCaracteres">Informe uma frase com no mínimo 03 caracteres</string>
+    <string name="eh_palindromo">É um palíndromo!</string>
+    <string name="nao_eh_palindromo">Não é um palíndromo!</string>
+
+</resources>
