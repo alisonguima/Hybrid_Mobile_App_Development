@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/cardapio"/>
+
+        <CheckBox
+            android:id="@+id/chkSandubaGigante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sanduba_gigante" />
+
+        <CheckBox
+            android:id="@+id/chkOmelete"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/omelete_da_casa"/>
+
+        <CheckBox
+            android:id="@+id/chkHamburguer"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/hamburguer"/>
+
+        <CheckBox
+            android:id="@+id/chkHotDog"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/hot_dog"/>
+
+        <CheckBox
+            android:id="@+id/chkBeirute"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/beirute"/>
+
+        <CheckBox
+            android:id="@+id/chkEsfiha"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/esfiha"/>
+
+        <CheckBox
+            android:id="@+id/chkXTudao"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/x_tudao"/>
+
+        <CheckBox
+            android:id="@+id/chkVegano"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/vegano"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:text="@string/forma_de_pagamento"/>
+
+        <RadioGroup
+            android:id="@+id/rdgOpcoesPagamento"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <RadioButton
+                android:id="@+id/rdbCartaoDeCredito"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/cartao_de_credito"/>
+
+            <RadioButton
+                android:id="@+id/rdbBoletoBancario"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/boleto_bancario"/>
+
+            <RadioButton
+                android:id="@+id/rdbPix"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/pix"/>
+
+        </RadioGroup>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:onClick="fazerPedido"
+            android:text="@string/fazer_pedido"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CheckBox e RadioButtons</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="sanduba_gigante">Sanduba Gigante</string>
+    <string name="omelete_da_casa">Omelete da casa</string>
+    <string name="hamburguer">Hamburguer</string>
+    <string name="hot_dog">Hot Dog</string>
+    <string name="beirute">Beirute</string>
+    <string name="esfiha">Esfiha</string>
+    <string name="x_tudao">X-Tudão</string>
+    <string name="vegano">Vegano</string>
+    <string name="fazer_pedido">Fazer Pedido</string>
+    <string name="forma_de_pagamento">Forma de Pagamento:</string>
+    <string name="cartao_de_credito">Cartão de Crédito</string>
+    <string name="boleto_bancario">Boleto Bancário</string>
+    <string name="pix">PIX</string>
+    <string name="informe_pagamento">Informe o método de pagamento</string>
+    <string name="total">Total</string>
+</resources>
